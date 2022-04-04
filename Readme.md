@@ -1,60 +1,77 @@
-# 🏁 Desafio de programação - Vaga Front-End 🏁
+## Tabela de Conteúdo
 
-**Este teste tem por objetivos principais avaliar:**
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Estrutura de Desenvolvimento](#estrutura-de-desenvolvimento)
+- [Começando](#come%C3%A7ando)
+  - [Estrutura de Arquivos](#estrutura-de-arquivos)
+  - [Instalação](#instala%C3%A7%C3%A3o)
+- [Licença](#licen%C3%A7a)
+- [Contato](#contato)
 
-- Habilidades no desenvolvimento frontend
-- Conceitos de UI e UX aplicados
+## Sobre o Projeto
 
-****
+Esse projeto foi desenvolvido com o intuito de atender os requisitos solicitados no desafio front-end ByCoders. O projeto possui uma estrututa simples e objetiva demonstrando, a prática na escrita de código Html e Css visando atender bons padrões de acessibilidade e SEO na construção de estruturas escaláveis e de fácil manutenção. Foram utilizados os padrões BEM e CamelCase para nomenclatura de classes Css.
 
-## Instruções
+### Estrutura de Desenvolvimento
 
-- Primeiro, faça um fork deste projeto para sua conta no Github (crie uma se você não possuir).
-- Em seguida, implemente o projeto tal qual descrito abaixo, em seu clone local.
-- Por fim, envie via email um arquivo patch para seu contato na Bycoders_.
+Abaixo segue o que foi utilizado na criação do projeto:
 
-****
+- [Vue.js](https://vuejs.org/) - Framework javascript open source que possui uma estrutura acessível, de alto desempenho e versátil para a construção de interfaces de usuário da web;
+- [Bootstrap 5](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Estrutura mais popular do mundo para a criação de sites responsivos para dispositivos móveis, com jsDelivr e uma página inicial de modelo;
 
-## Desafio 🚀 🚀 🚀
+## Começando
 
-![screen](/image.png)
+Para instanciar o projeto, siga os passos abaixo.
 
-O desafio consiste em criar um projeto com o design da imagem **acima**, utilizando a [API do YouTube](https://developers.google.com/youtube/v3)
+### Estrutura de Arquivos
 
-Utilize a [documentação](https://developers.google.com/youtube/v3/docs) para se orientar em como criar uma conta, logar no app, listar os vídeos do usuário, se inscrever em canais, enviar vídeos, ou o que mais você precisar.
+A estrutura de arquivos está da seguinte maneira:
 
-O layout da **home** não precisa ser exatamente como o do wireframe. Você pode ficar a vontade para exibir os conteúdos/vídeos que achar melhor, desde que qualquer informação (vídeo, texto, cores, imagens) sejam exibidos de maneira organizada e bem distribuida entre a tela, fornecendo uma boa experiência para o usuário.
+```bash
+desafio-frontend
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Card/
+│   │   ├── Header/
+│   │   ├── VideoThubnail/
+│   │   └── App.vue
+│   └── assets/
+│       ├── icons/
+│       ├── img/
+│       ├── styles/
+│       │   ├── base/
+│       │   └── abstracts/
+│       └── main.scss
+└── index.html
 
-**Antes de iniciar o teste**
-1. Crie um projeto no [console de desenvolvedor](https://console.developers.google.com/projectcreate) da **Google**
-2. Ative a [YouTube Data API v3](https://console.developers.google.com/apis/api/youtube.googleapis.com/overview) nele
-3. Crie uma credencial de acesso para que seu app possa se comunicar com a API
+```
 
-**Requisitos esperados na entrega do teste**
+### Instalação
 
-- [ ] Fornecer um mecanismo para o usuário poder pesquisar vídeos
-- [ ] Possuir home page que exiba algum conteúdo interessante para uma plataforma de vídeos
-- [ ] Fornecer uma estrutura de gerência do estado da aplicação
-- [ ] Possuir histórico das buscas realizadas (persistir localmente)
+1. Para instalar e utilizar a aplicação o processo é bem simples, basta iniciar o clone do repositório no diretório base escolhido para o desenvolvimento:
+```sh
+git clone https://github.com/allinnemara/desafio-frontend.git
+"Entre com suas credenciais do repositório."
+```
 
-**Requisitos extras** 
+2. Entre no diretório da aplicaçao e execute o NPM.
 
-- [ ] Permitir cadastro de usuário / login através da API do YouTube + OAuth2
-- [ ] Permitir upload de vídeo para a API do YouTube
+```sh
+cd desafio-frontend
+npm install
+```
 
-****
+3. Agora basta executar o micro serviço para ver no browser. https:localhost:3000
 
-## Pontos principais
+```sh
+npm run dev
+```
 
-- Clean code
-- Conhecimento de boas práticas / design patterns
-- Demonstração de boa gestão do estado do app
+## Licença
 
-****
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
-## Pontos extras
-- Uso de frameworks / libs
-- Testes
-- Componetização do app
-- Uso de linters
-****
+## Contato
+
+Allinne Mara - [Perfil Gitgub](https://github.com/allinnemara) - **allinne.mara@hotmail.com.br**
