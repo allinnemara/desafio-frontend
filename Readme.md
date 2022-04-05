@@ -34,7 +34,7 @@ desafio-frontend
 │   ├── components/
 │   │   ├── Card/
 │   │   ├── Header/
-│   │   ├── VideoThubnail/
+│   │   ├── VideoThumbnail/
 │   │   └── App.vue
 │   └── assets/
 │       ├── icons/
@@ -74,4 +74,4 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ## Contato
 
-Allinne Mara - [Perfil Gitgub](https://github.com/allinnemara) - **allinne.mara@hotmail.com.br**
+Allinne Mara - [Perfil Github](https://github.com/allinnemara) - **allinne.mara@hotmail.com.br**
